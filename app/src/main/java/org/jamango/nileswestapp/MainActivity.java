@@ -23,4 +23,9 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
     }
 
+    public void openRepairStatus(View view){
+        Intent i = new Intent(MainActivity.this, ChromebookRepairMain.class);
+        startActivity(i);
+    }
+
 }

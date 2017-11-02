@@ -24,8 +24,9 @@
         <activity
             android:name=".Schedule"
             android:label="Schedule Viewer"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".NewsMain"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".NewsMain" />
+        <activity android:name=".ChromebookRepairMain"></activity>
     </application>
 
 </manifest>
